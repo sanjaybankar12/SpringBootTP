@@ -7,11 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-
 	
 	@GetMapping(value = "/all")
 	public void test() {
 		
 	}
 	
+	@GetMapping(value="/test2")
+	public void test2() {
+		
+	}
 }
